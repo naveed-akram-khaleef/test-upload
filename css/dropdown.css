@@ -1,0 +1,80 @@
+.dropdown {
+    position: relative;
+    color:#737373;
+	font-weight:normal;
+}
+.dropdown > .selected {
+	box-shadow:inset 0px 0px 1px #FFF, 0px 1px 2px rgba(0,0,0,0.20);
+	width:100%; border:solid 1px #AFAFAF; font-weight:bold; color:#737373;
+	background-image:url(../images/dropdown_arrow.png), linear-gradient(#FCFCFC, #F4F4F4);
+	background-image:url(../images/dropdown_arrow.png), -webkit-linear-gradient(#FCFCFC, #F4F4F4);
+	background-image:url(../images/dropdown_arrow.png), -moz-linear-gradient(#FCFCFC, #F4F4F4);
+	background-image:url(../images/dropdown_arrow.png), -ms-linear-gradient(#FCFCFC, #F4F4F4);
+	background-image:url(../images/dropdown_arrow.png), -o-linear-gradient(#FCFCFC, #F4F4F4);
+	background-position:center right;
+	background-repeat:no-repeat;
+	
+    padding: 12px 12px 12px 12px;
+}
+
+.dropdown.focus > .selected,
+.dropdown:focus > .selected {
+    border: 1px solid #CCC;
+}
+
+.dropdown > .selected:hover,
+.dropdown > .selected:focus {
+    border: 1px solid #999;
+    cursor: pointer;
+}
+.dropdown > .selected i {
+	display:none;
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    line-height: 40px;
+    border-left: 1px solid #E2E7EA;
+    text-align: center;
+    color: #999;*/
+}
+.dropdown ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background: #FFF;
+    z-index: 10;
+    border: 1px solid #CCC;
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+    max-height: 300px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li {
+    display: block;
+    cursor: pointer;
+}
+.dropdown ul li.selected {
+    background: #EEE;
+}
+.dropdown ul li:last-child.selected {
+    -webkit-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+}
+.dropdown ul li {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #414141;
+}
+
+.dropdown ul li:hover {
+    background: #4BC9EB;
+    color: #FFF;
+}

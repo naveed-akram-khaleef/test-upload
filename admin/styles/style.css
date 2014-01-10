@@ -1,0 +1,143 @@
+﻿body{ margin: 0px 0px 0px 0px; }
+div{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-transform: none; color: #000000; }
+td{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-transform: none; color: #000000; }
+p{ margin:0px; padding:0px; }
+a:link{ color:#000066; text-decoration:none; }
+a:visited{ color: #000066; text-decoration:none;}
+a:hover{ color: #BF222E; text-decoration: underline;}
+a:active{ color: #000066; text-decoration: none;}
+h1{ font-family: Arial, Helvetica, sans-serif; font-size:20px; color:#666666; border-bottom:solid 2px #717171; padding-top:10px; padding-bottom:10px;}
+h2{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size:16px; color:#666666; font-weight:bold;}
+h3{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size:16px; color:#666666; font-weight:bold;}
+h4{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-weight:bold;}
+h5{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-weight:bold;}
+h6{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#666666; font-weight:bold;}
+.mainTable{}
+.mainBody{ padding-bottom:10px; padding-left:10px; padding-right:10px; padding-top:10px;}
+#showAlbumThumbs{position:relative; float:left; margin:0px; padding-top:14px; padding-left:20px; padding-bottom:10px;}
+#showMainAlbums{width:100%; position:relative; float:left; margin:0px; padding:0px;}
+.showImage{width:120px; height:120px; border:1px solid #CDCDCD; background-color:#F2F2F2;}
+
+.Header{ background-image:url(../images/admin_header_bg.jpg); background-repeat:repeat-x; vertical-align:top; height:68px; }
+.adminHead{ font-size:16px; font-weight:bold; color:#000000; }
+
+.adminMenu{border:1px solid #E6E6E6; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight:normal; text-transform: none; background-color:#F5F5F5; color: #000000; line-height:18px; text-align:left;}
+.adminMenu a:link, .adminMenu a:visited, .adminMenu a:hover, .adminMenu a:active {text-decoration:none; color: #000000; padding-left:4px; padding-right:4px;}
+.adminMenuOver{border:1px solid #0E80E1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight:normal; text-transform: none; background-color:#EDF7FE; color: #000000; line-height:18px; text-align:left;}
+.adminMenuOver a:link, .adminMenuOver a:visited, .adminMenuOver a:hover, .adminMenuOver a:active {text-decoration:none; color: #000066; padding-left:4px; padding-right:4px;}
+
+.Menu{ background-color:#E5E5E5; padding-top:20px; vertical-align:top;}
+.Content{padding-left: 7px; vertical-align:top; padding-bottom:10px; padding-top:10px;}
+.Footer{height:24px; margin-top:10px; border:solid 1px #eaeaea; vertical-align:middle;}
+.inputsmallBorder{ font-family: Arial, Helvetica, sans-serif; font-size: 13px; border: 1px solid #D1D1D1; background-color: #F9F9F9; }
+.inputsmallBorder1{ font-family: Arial, Helvetica, sans-serif; font-size: 13px; border: 1px solid #a2a2a2; background-color: #F9F9F9; width:170px; }
+.inputsmallBorder2{ font-family: Arial, Helvetica, sans-serif; font-size: 13px; border: 1px solid #FF9B05; background-color: #FFFFFF; }
+.inputButton{font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color:#a2a2a2; border:1px solid #a2a2a2; color:#FFFFFF; font-weight:bold; padding-left:4px; padding-right:4px;}
+.msg{ color:Red;}
+.adminMainHead{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#000066; padding-top:5px; padding-bottom:5px;}
+.Tableborder{ border-bottom:solid 1px #747474; border-left:solid 1px #747474; border-right:solid 1px #747474;}
+.ListTables{ background-color:#FFFFFF; border:0px; }
+.FormTables{ background-color:#F5F5F5; border:1px solid #cdcdcd; }
+
+.TableHeads{ background-color:#CCCCCC; height:20px; font-weight:bold; color:#000000; font-size:12px;}
+.ListRow1{ background-color: #E6E6E6; height:20px; padding-left: 2px; padding-right: 2px; }
+.ListRow2{ background-color: #F6F6F6; height:20px; padding-left: 2px; padding-right: 2px; }
+.ListRow1:hover{ cursor:pointer; background:#cccccc; }
+.ListRow2:hover{ cursor:pointer; background:#cccccc; }
+
+
+.ListRow3{background-color: #DDEEFF; height:20px; padding-left: 2px; padding-right: 2px;}
+.ListRowGreen{ background-color: #E6FFE6; height:20px; padding-left: 2px; padding-right: 2px; }
+.FormRow1{ background-color: #eaeaea; height:20px; padding-left: 2px; padding-right: 2px; font-weight:bold; color:#666666; font-size:13px; }
+
+.lov {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+}
+.lov a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	width: 110px;
+	height: 18px;
+	background-color: #E2E5EA;
+	border: 1px solid #8C95A6;
+	padding:4px 10px 4px 10px;
+}
+.lov a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	width: 110px;
+	height: 18px;
+	background-color: #E2E5EA;
+	border: 1px solid #8C95A6;
+	padding:4px 10px 4px 10px;
+}
+.lov a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #9E200A;
+	text-decoration: none;
+	width: 110px;
+	height: 18px;
+	background-color: #FDE0DB;
+	border: 1px solid #8C95A6;
+	padding:4px 10px 4px 10px;
+}
+.lov a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	width: 110px;
+	height: 18px;
+	background-color: #E2E5EA;
+	border: 1px solid #8C95A6;
+	padding:4px 10px 4px 10px;
+}
+.lovSelected {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #F13313;
+	text-decoration: none;
+	width: 110px;
+	height: 18px;
+	background-color: #FDE0DB;
+	border: 1px solid #F13313;
+	/*padding:4px 10px 4px 10px;*/
+}

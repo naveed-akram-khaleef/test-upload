@@ -1,0 +1,2 @@
+<li class="disable"><a href="javascript:void(0);" title="<?php echo Add_To_Wishlist.' - '.Login_To_Use_This_Service;?>"><img src="images/icons/wish_icon.png" /></a></li>
+<li class="disable"><a href="javascript:void(0);" title="<?php echo Gift_To_Friend.' - '.Login_To_Use_This_Service;?>"><img src="images/icons/friend_icon.png" /></a></li>
