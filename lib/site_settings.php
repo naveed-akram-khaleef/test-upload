@@ -62,7 +62,7 @@ if( $iPod || $iPhone ){
 
 // Local
 // http://localhost/esol/2013/wap_portal2/code/
-$siteRoot = "http://54.201.195.184/wap-portal/";
+$siteRoot = "http://54.201.33.172/wap-portal/";
 // Live
 // http://180.92.158.4/wap_portal/ 
 $_SESSION['site_root'] = $siteRoot;
