@@ -536,7 +536,7 @@ ob_end_flush();
                                                   <input type="file" name="pFile[]" class="fileInputs" />
                                               </div>
                                               <div class="sepH_b">
-                                                  <label for="a_text" class="lbl_a">Format <?php echo @$counter?>:</label>
+<!--                                                  <label for="a_text" class="lbl_a">Format <?php echo @$counter?>:</label>-->
                                                   <input type="hidden" name="format[]" value="<?php echo @$row->ptype_value?>" class="inpt_a" disabled="disabled"  />
                                                   <input type="hidden" name="formatID[]" value="<?php echo @$row->ptype_id?>"/>
                                                   <input type="hidden" name="tfileName[]" value="<?php echo @$row->prf_thumb?>">
