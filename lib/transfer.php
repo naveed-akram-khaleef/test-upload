@@ -16,14 +16,18 @@
 	}
 
 	$sftp = new Net_SFTP('178.79.149.95', 22222);
-	if(!$sftp->login('worker', 'pebbles#006')) {
+    if(!$sftp->login('worker', 'pebbles#006')) {
 		//Failed
 		$hddn = 0;
 	}
 	else{
 		//Successfull
 		$hddn = 1;
-		$sftp->put($remote_file, $local_file_contents);
+
+        $sftp->BufferSize = (1024 * 32) - 50;
+        $sftp->OperationTimeout = TimeSpan.FromMinutes(15);
+    
+        $sftp->put($remote_file, $local_file_contents);
 		if($mfileName!=''){
 			@unlink('../files/products/file/'.$mfileName);
 		}
