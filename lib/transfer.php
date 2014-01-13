@@ -24,8 +24,8 @@
 		//Successfull
 		$hddn = 1;
 
-        $sftp->BufferSize = (1024 * 32) - 50;
-        $sftp->OperationTimeout = TimeSpan.FromMinutes(15);
+        //$sftp->BufferSize = (1024 * 32) - 50;
+        //$sftp->OperationTimeout = TimeSpan.FromMinutes(15);
     
         $sftp->put($remote_file, $local_file_contents);
 		if($mfileName!=''){
